@@ -5,7 +5,7 @@ import Home from "../Components/Home";
 import About from "../Components/About";
 import Login from "../admin/Login";
 import Register from "../admin/Register";
-import Dashboard from "../admin/dashboard";
+import Dashboard from "../admin/Dashboard";
 
 const AppRoutes = () => {
   return (
