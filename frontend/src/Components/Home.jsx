@@ -183,7 +183,7 @@ const Home = () => {
                         }}
                       >
                         <img
-                          src={post.image_url ? `http://localhost:5000${post.image_url}` : fallbackImage}
+                          src={post.image_url ? `https://blogapp-o0ah.onrender.com${post.image_url}` : fallbackImage}
                           alt={post.title}
                           style={{
                             width: "100%",

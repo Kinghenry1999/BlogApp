@@ -11,7 +11,7 @@ const app = express();
 
 // During local development allow the dev server origin (Vite may pick different ports).
 app.use(cors({
-  origin: true,
+  origin: 'https://blogapp-frontend-eta.vercel.app',
   credentials: true,
 }));
 
